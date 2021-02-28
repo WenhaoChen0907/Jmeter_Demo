@@ -1,0 +1,35 @@
+T2001N,Test201学院,Master201,Slogan201,----全传正常数据
+T2002N,Test201学院,Master201,,----必填正常数据
+T01,Test201学院,Master201,Slogan201,----dep_id已存在（T201）校验
+ ,Test201学院,Master201,Slogan201,----id为空格
+T2003N, ,Master201,Slogan201,----depname为空格
+T2004N,Test201学院, ,Slogan201,----mastername为空格
+T2005N,Test201学院,Master201, ,----slogan为空格
+,Test206学院,Master201,Slogan201,----id为空
+T2007N,,Master201,Slogan201,----depname为空
+T2008N,Test201学院,,Slogan201,----mastername为空
+T2009N,Test201学院,Master201,,----slogan为空
+ T20010N ,Test201学院,Master201,Slogan201,----id为前后含空格
+T20011N, Test201学院 ,Master201,Slogan201,----depname为前后含空格
+T20012N,Test201学院, Master201 ,Slogan201,----mastername为前后含空格
+T20013N,Test201学院,Master201, Slogan201 ,----slogan为前后含空格
+#T20014N#,Test201学院,Master201,Slogan201,----id为前后含#
+T20015N,#Test201学院#,Master201,Slogan201,----depname为前后含#
+T20016N,Test201学院,#Master201#,Slogan201,----mastername为前后含#
+T20017N,Test201学院,Master201,#Slogan201#,----slogan为前后含#
+%T20018N%,Test201学院,Master201,Slogan201,----id为前后含%
+T20019N,%Test201学院%,Master201,Slogan201,----depname为前后含%
+T2001aN,Test201学院,%Master201%,Slogan201,----mastername为前后含%
+T2001bN,Test201学院,Master201,%Slogan201%,----slogan为前后含%
+/T2001cN/,Test201学院,Master201,Slogan201,----id为前后含/
+T2001dN,/Test201学院/,Master201,Slogan201,----depname为前后含/
+T2001eN,Test201学院,/Master201/,Slogan201,----mastername为前后含/
+T2001fN,Test201学院,Master201,/Slogan201/,----slogan为前后含/
+@T2001gN@,Test201学院,Master201,Slogan201,----id为前后含@
+T2001hN,@Test201学院@,Master201,Slogan201,----depname为前后含@
+T2001iN,Test201学院,@Master201@,Slogan201,----mastername为前后含@
+T2001jN,Test201学院,Master201,@Slogan201@,----slogan为前后含@
+T2001N1001N1001N1001N1001N100N1,Test201学院,Master201,Slogan201,----id为超长
+T2001kN,Test201001N1001N1001N1001N10001学院,Master201,Slogan201,----depname为超长
+T2001lN,Test201学院,Master20001N1001N1001N1001N10011,Slogan201,----mastername为超长
+T2001mN,Test201学院,Master201,Slogan201001N1001N1001Slogan201001N1001N1001N1001N1001NSlogan201001N1001N1001N1001N1001NSlogan201001N1001N1001N1001N1001NSlogan201001N1001N1001N1001N1001NN1001N1001N1,----slogan为超长
